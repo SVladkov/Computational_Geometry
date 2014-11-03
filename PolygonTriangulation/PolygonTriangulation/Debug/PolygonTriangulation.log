@@ -1,13 +1,18 @@
-﻿Build started 10/10/2014 00:14:39.
+﻿Build started 10/16/2014 20:39:38.
      1>Project "D:\University\ComputationalGeometry\Computational-Geometry\PolygonTriangulation\PolygonTriangulation\PolygonTriangulation.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AreaOfPolygon.cpp
-         AreaOfPolygon.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Polygon.cpp Source.cpp
+         Source.cpp
+         Polygon.cpp
+         Generating Code...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\University\ComputationalGeometry\Computational-Geometry\PolygonTriangulation\Debug\PolygonTriangulation.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\University\ComputationalGeometry\Computational-Geometry\PolygonTriangulation\Debug\PolygonTriangulation.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\University\ComputationalGeometry\Computational-Geometry\PolygonTriangulation\Debug\PolygonTriangulation.lib" /MACHINE:X86 Debug\AreaOfPolygon.obj
-         PolygonTriangulation.vcxproj -> D:\University\ComputationalGeometry\Computational-Geometry\PolygonTriangulation\Debug\PolygonTriangulation.exe
-     1>Done Building Project "D:\University\ComputationalGeometry\Computational-Geometry\PolygonTriangulation\PolygonTriangulation\PolygonTriangulation.vcxproj" (Build target(s)).
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\University\ComputationalGeometry\Computational-Geometry\PolygonTriangulation\Debug\PolygonTriangulation.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\University\ComputationalGeometry\Computational-Geometry\PolygonTriangulation\Debug\PolygonTriangulation.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\University\ComputationalGeometry\Computational-Geometry\PolygonTriangulation\Debug\PolygonTriangulation.lib" /MACHINE:X86 Debug\Polygon.obj
+         Debug\Source.obj
+     1>Source.obj : error LNK2005: "class vecta::quatrn __cdecl vecta::operator*(class vecta::quatrn const &,class vecta::quatrn const &)" (??Dvecta@@YA?AVquatrn@0@ABV10@0@Z) already defined in Polygon.obj
+     1>Source.obj : error LNK2005: "class vecta::vec2d<double> __cdecl vecta::polar(double,double)" (?polar@vecta@@YA?AV?$vec2d@N@1@NN@Z) already defined in Polygon.obj
+     1>D:\University\ComputationalGeometry\Computational-Geometry\PolygonTriangulation\Debug\PolygonTriangulation.exe : fatal error LNK1169: one or more multiply defined symbols found
+     1>Done Building Project "D:\University\ComputationalGeometry\Computational-Geometry\PolygonTriangulation\PolygonTriangulation\PolygonTriangulation.vcxproj" (Build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:13.78
+Time Elapsed 00:00:01.28

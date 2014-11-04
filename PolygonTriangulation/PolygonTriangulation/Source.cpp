@@ -4,6 +4,8 @@
 using namespace std;
 using namespace vecta;
 
+
+
 int main()
 {
 	int numberOfVertices = 0;
